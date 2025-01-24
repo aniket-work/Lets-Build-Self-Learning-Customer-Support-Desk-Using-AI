@@ -1,33 +1,60 @@
 # Lets Build  Self-Learning Customer Support Desk Using AI
 
-Practical Guide : InvoiceSense AI: Smart Invoice Processing Made Simple — Extract, Analyze, Done
+Practical Guide : AI-Driven Intent Detection Engine for Precision Insights in Customer Support
 
 TL;DR
 
-In this hands-on guide, we’ll build a professional invoice processing application using AI Agents. You’ll learn how to create a web interface that can analyze invoices, build agentic system which extract key information, and present it in a clean format. Perfect for developers looking to automate document processing or explore practical AI applications.
+Discover how to build a cutting-edge customer support system that leverages AI to automatically understand and route customer inquiries. This practical guide walks through creating a self-learning support desk using Python, Streamlit, and AI Agents, demonstrated through a telecom company use case. Perfect for businesses looking to modernize their customer service operations with AI that adapts and improves over time.
 
-Full Article : [https://medium.com/@learn-simplified/lets-build-invoice-processing-system-using-ai-agents-8b6814f0e2ad
+Full Article : [https://medium.com/@learn-simplified/self-learning-customer-support-desk-960c92c6e85b
 
+
+## Introduction
+Imagine a customer support system that doesn’t just respond to queries but truly understands them. A system that learns from each interaction, adapts to new challenges, and gets smarter over time. That’s not science fiction — it’s what we’re building today.
+
+In today’s digital age, customer support faces unprecedented challenges. Support teams are overwhelmed with tickets, customers demand instant responses, and businesses struggle to maintain quality while scaling operations. Traditional support systems are like static maps in a constantly changing landscape — they quickly become outdated and inefficient.
+
+Enter the Self-Learning Customer Support Desk. This isn’t just another ticketing system; it’s an intelligent assistant that grows with your business, understands your customers’ needs, and helps your support team work smarter, not harder.
 
 ## What's This Project About
 
-Imagine having an assistant that could read invoices and instantly tell you all the important details — the total amount, due date, line items, and more. That’s exactly what we’re building today! We’ll create a web application where you can upload any invoice image, and our AI agent (powered by Llama via Ollama) will analyze it and present the information in a clean, organized format.
+This article takes you on a practical journey through building a modern, AI-powered customer support system. We’re creating more than just code; we’re building a solution that could transform how businesses handle customer interactions.
 
-This isn’t just another tutorial — we’re building a real-world application that showcases how to combine modern AI capabilities with web development. Whether you’re a developer looking to automate document processing or someone curious about practical AI applications, this project will give you hands-on experience with these technologies.
+Our system includes several sophisticated components:
+
+- A dynamic intent classification engine that automatically understands customer queries
+- An intuitive interface for support teams to manage and customize intent labels
+- Real-time analysis capabilities that provide instant insights
+- A self-learning mechanism that improves accuracy over time
+- A flexible architecture that can adapt to different business needs
+
+Using a telecom company as our example, we’ll see how this system handles real-world scenarios: from billing disputes and technical issues to service upgrades and coverage problems. You’ll learn how the system classifies incoming messages, routes them to appropriate departments, and helps support agents respond more effectively.
 
 ## Why Work on It?
 
-Have you ever wondered how to make AI work for real business problems? This tutorial shows you exactly that. You’ll learn:
+In today’s business landscape, AI isn’t just an advantage — it’s becoming a necessity. This article is crucial for several reasons:
 
-- How to structure a professional Python application with proper configuration management
-- How to create a clean, responsive web interface without being a frontend expert
-- How to integrate AI capabilities into your applications
-- Best practices for handling document processing and user uploads
-- How to make your code maintainable and scalable
+First, it addresses real business challenges. Companies are struggling with:
+
+- Increasing support ticket volumes
+- Rising customer expectations for instant responses
+- The need to maintain consistent service quality
+- Difficulties in scaling support operations efficiently
+- The challenge of training and maintaining support staff
+
+- Second, it provides practical implementation insights. You’ll learn:
+
+- How to structure an AI-powered support system
+- Ways to integrate machine learning into existing workflows
+- Techniques for building self-improving systems
+- Methods for managing and updating intent classifications
+- Strategies for scaling support operations
+
+Third, while our example uses a fictional telecom company, the principles and implementation can be adapted to any industry. Whether you’re in retail, healthcare, finance, or technology, the core concepts remain valuable.
 
 ## Architecture
 
-### Let's Build Invoice Processing Using AI Agents
+### Lets Build Self-Learning Customer Support Desk Using AI
 
 
 ![Design Diagram](design_docs/design.jpg)
@@ -36,7 +63,7 @@ mplex, hard-to-maintain system into a streamlined, efficient solution. The visua
 
 
 
-# Tutorial: Let's Build Invoice Processing Using AI Agents
+# Tutorial: Lets Build Self-Learning Customer Support Desk Using AI
 
 ## Prerequisites
 - Python installed on your system.
@@ -65,7 +92,7 @@ mplex, hard-to-maintain system into a streamlined, efficient solution. The visua
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the  "Let's Build Invoice Processing Using AI Agents"
+Follow these steps to set up and run the  "Lets Build Self-Learning Customer Support Desk Using AI"
 
 1. Navigate to your project directory:
    ```
@@ -80,12 +107,12 @@ Follow these steps to set up and run the  "Let's Build Invoice Processing Using 
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - Hands-On Guide: Let's Build Invoice Processing Using AI Agents
+## Run - Hands-On Guide: Lets Build Self-Learning Customer Support Desk Using AI
 
    ```bash 
      
       # Run 
-      streamlit run streamlit_app.py
+      streamlit run main.py
       
    ```
 
