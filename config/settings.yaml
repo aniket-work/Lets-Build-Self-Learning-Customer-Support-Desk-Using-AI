@@ -1,0 +1,14 @@
+app:
+  page_title: "Self-Learning Customer Support Desk"
+  page_icon: "🤖"
+  layout: "wide"
+
+ui:
+  labels:
+    add_placeholder: "Enter a new label..."
+    no_labels_message: "No labels added yet"
+  messages:
+    input_placeholder: "Type message here..."
+    analyzing: "Analyzing intent..."
+    empty_input: "Please enter a message"
+    error: "An error occurred: {}"  # Added missing error message
